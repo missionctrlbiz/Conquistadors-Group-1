@@ -1,5 +1,5 @@
 const express = require('express');
-const Product = require('../schema/productSchema');
+const Product = require('../schemas/productSchema');
 const { protect } = require('../middleware/authMiddleware');
 
 const router = express.Router();

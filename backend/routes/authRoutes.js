@@ -1,5 +1,5 @@
 const express = require('express');
-const User = require('../schema/userSchema');
+const User = require('../schemas/userSchema');
 const { generateToken } = require('../utils/jwt');
 
 const router = express.Router();
